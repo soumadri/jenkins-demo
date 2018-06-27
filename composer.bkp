@@ -1,0 +1,33 @@
+{
+    "name": "sample",
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "silex/silex": "2.0.4",
+        "doctrine/orm": "2.5.6",
+        "symfony/yaml": "3.2.1",
+        "pimple/pimple": "3.0.2",
+        "doctrine/orm": "2.5.6",
+        "symfony/console": "3.2.1",
+        "symfony/yaml": "3.2.1",
+        "symfony/config": "3.2.1",
+        "symfony/translation": "3.2.1",
+        "symfony/validator": "3.2.1",
+        "symfony/process": "3.2.1",
+        "pimple/pimple": "3.0.2",
+        "symfony/expression-language": "3.2.1",
+        "symfony/dom-crawler": "3.2.1"
+    },
+    "autoload": {
+        "psr-4": {
+          "Sample\\": "src"
+        }
+    },
+    "config":{
+      "secure-http":false
+    },
+    "require-dev": {
+        "codeception/codeception": "dev-master"
+    }
+}
