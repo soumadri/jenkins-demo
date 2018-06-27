@@ -4,7 +4,7 @@ date_default_timezone_set('Asia/Calcutta');
 
 require_once __DIR__.'/vendor/autoload.php';
 
-use Sample\FrontController;
+use Service\FrontController;
 
 $sample = new FrontController();
 $sample->run();

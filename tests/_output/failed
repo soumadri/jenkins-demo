@@ -1,1 +1,1 @@
-tests/unit/SampleUnitTest.php:testGetUserDetails
+tests/unit/SimpleUnitTest.php:testSayHello
