@@ -13,7 +13,8 @@
         }
     },
     "config":{
-      "secure-http":false
+      "secure-http":false,
+      "cache-dir": "$HOME/.composer_cache"
     },
     "require-dev": {
         "codeception/codeception": "2.4.3"
