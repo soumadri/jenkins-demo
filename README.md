@@ -2,6 +2,7 @@
 A simple Hello World web application built with Symfony and Silex
 
 # Jenkins docker command
+    #Change {YOUR_JENKINS_HOME}, {HOME_DIR} and {YOUR_WEB_DEPLOY_ROOT} appropriately before using
     docker run -p 8082:8080 -p 50000:50000 --add-host git.tnq.co.in:10.0.0.160 --add-host smtp.gmail.com:74.125.24.108 -v {YOUR_JENKINS_HOME}:/var/jenkins_home -v {HOME_DIR}:/home -v {YOUR_WEB_DEPLOY_ROOT}:/home/deployroot -d jenkins-php-ci
 
 # Jenkins project configurations
