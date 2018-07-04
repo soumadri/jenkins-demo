@@ -2,8 +2,7 @@
     "name": "sample",
     "version": "1.0.0",
     "minimum-stability": "dev",
-    "require": {
-        "php": ">=7.0",
+    "require": {        
         "silex/silex": "2.0.4",             
         "symfony/http-foundation": "3.4.12",
         "symfony/dom-crawler": "3.2.1"      
