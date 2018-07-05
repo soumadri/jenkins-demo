@@ -22,7 +22,7 @@ class FrontController {
         $this->app->match('/', function (Request $request) {
             $response = [];
             if(!empty($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] !== 'OPTIONS') {
-                echo "Welcome World";
+                echo "Hello World";
                 exit;
             }
         })->method('GET|OPTIONS');
