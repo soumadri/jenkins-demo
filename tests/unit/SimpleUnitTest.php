@@ -22,7 +22,7 @@ class SimpleUnitTest extends \Codeception\Test\Unit
         //Test the service is returning message properly
         $service = new HelloService();
 
-        $this->assertEquals($service->sayHello("Soumadri"), "Hello Soumadri");
+        $this->assertEquals($service->sayHello("TNQ"), "Hello TNQ");
     }
 
     public function testSayHelloEmpty()
@@ -30,7 +30,7 @@ class SimpleUnitTest extends \Codeception\Test\Unit
         //Test the service is returning message properly
         $service = new HelloService();
 
-        $this->assertEquals($service->sayHello(""), "Hello ");        
+        $this->assertEquals($service->sayHello(""), "Hello Unknown");        
     }
 
     public function testSayHelloEmptyNegative()
@@ -46,6 +46,6 @@ class SimpleUnitTest extends \Codeception\Test\Unit
         //Test the service is returning message properly
         $service = new HelloService();
 
-        $this->assertEquals($service->sayHello("வணக்கம்"), "Hello வணக்கம்");
+        $this->assertEquals($service->sayHello("உலகம்"), "Hello உலகம்");
     }
 }
